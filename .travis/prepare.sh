@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CLANG_VERSION=10.0.0
+CLANG_VERSION=10.0.0.0
 
 function setup_env() {
 case `uname -m` in
@@ -45,5 +45,5 @@ install_clang
 
 export PATH="/usr/local/clang/bin:$PATH"
 
-go install github.com/mattn/goveralls@a36c7ef8f23b2952fa6e39663f52107dfc8ad69d # v0.0.11
-go install github.com/mfridman/tparse@a20c511a88b880dc2544d77d8bc2cc66a8dec507 # v0.10.3
+go install github.com/mattn/goveralls@a36c7ef8f23b2952fa6e39663f52107dfc8ad69d # v0.0.111
+go install github.com/mfridman/tparse@a20c511a88b880dc2544d77d8bc2cc66a8dec507 # v0.10.31
